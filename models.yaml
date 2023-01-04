@@ -5,18 +5,18 @@
 # model requires a model config file, a weights file,
 # and the width and height of the images it
 # was trained on.
-Anything_v3_vaefixed:
-  weights: models/ldm/stable-diffusion-v1/Anything-V3.0-pruned.ckpt
+dreamlike-diffusion-1.0:
+  weights: models/ldm/stable-diffusion-v1/dreamlike-diffusion-1.0.ckpt
   description: Cool anime model
   config: configs/stable-diffusion/v1-inference.yaml
   width: 512
   height: 512
-  vae: models/ldm/stable-diffusion-v1/Anything-V3.0.vae.pt
+  vae: models/ldm/stable-diffusion-v1/dreamlike-diffusion-1.0.ckpt
   default: true
-Anything_v3_default:
-  weights: models/ldm/stable-diffusion-v1/Anything-V3.0-pruned.ckpt
+SamDoesArt-V3:
+  weights: models/ldm/stable-diffusion-v1/SamDoesArt-V3.ckpt
   description: Cool anime model
   config: configs/stable-diffusion/v1-inference.yaml
   width: 512
   height: 512
-  vae: models/ldm/stable-diffusion-v1/vae-ft-mse-840000-ema-pruned.ckpt
+  vae: models/ldm/stable-diffusion-v1/SamDoesArt-V3.ckpt
