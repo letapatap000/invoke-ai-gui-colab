@@ -20,3 +20,10 @@ SamDoesArt-V3:
   width: 512
   height: 512
   vae: models/ldm/stable-diffusion-v1/SamDoesArt-V3.ckpt
+arcane-diffusion-v3.ckpt:
+  weights: models/ldm/stable-diffusion-v1/arcane-diffusion-v3.ckpt
+  description: Cool anime model
+  config: configs/stable-diffusion/v1-inference.yaml
+  width: 512
+  height: 512
+  vae: models/ldm/stable-diffusion-v1/arcane-diffusion-v3.ckpt
